@@ -210,27 +210,28 @@ footer ul li {
 footer ul li p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 3px;
-    color: white;
-    text-transform: uppercase;
-}
-footer ul li a {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;  
 }
 .footer-sm {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     float: right;
 }
 .footer-sm img {
     width: 100%;
     margin-bottom: 10px;
 }
-
+@media only screen and (min-width: 950px) {
+    footer ul li p {
+        font-size: 18px;
+    }  
+    .footer-sm {
+        width: 32px;
+        height: 32px;
+        float: right;
+    }
+}
